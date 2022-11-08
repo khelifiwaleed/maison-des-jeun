@@ -7,12 +7,18 @@ session_start();
 if(isset($_POST['login'])){
 
     require_once '../includes/db.php' ;
-    $login = $conn->prepare("SELECT * FROM `user` WHERE email = :x1 AND password = :x2");
-    $login->bindparam("x1",$_POST['a1']);
-    $login->bindparam("x2",$_POST['a2']);
-    $login->execute();
+
+    $admin_email = mysqli_real_escape_string($con,$_POST['a1']);
+
+    $admin_pass = mysqli_real_escape_string($con,$_POST['a2']);
+
+    $get_admin = "select * from user where email='$admin_email' AND password='$admin_pass'";
+
+    $run_admin = mysqli_query($con,$get_admin);
     
-    if ($login->rowCount()===1){
+    $count = mysqli_num_rows($run_admin);
+    
+    if ($count===1){
         $x1 =  $_POST['a1'] ;
         $_SESSION['usernam'] = $x1 ;
         header("location:profil.php") ;

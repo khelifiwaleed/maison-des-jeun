@@ -28,12 +28,9 @@
             <div class="col-lg-3 col-md-6 mb-5">
                 <h5 class="text-white text-uppercase mb-4" style="">روابط مفيدة</h5>
                 <div class="d-flex flex-column justify-content-start">
-                <a class="text-white-50 mb-2" href="#"> <i class = "fa fa-angle-right mr-2"> </i> حول </a>
-                     <a class="text-white-50 mb-2" href="#"> <i class = "fa fa-angle-right mr-2"> </i> الوجهة </a>
-                     <a class="text-white-50 mb-2" href="#"> <i class = "fa fa-angle-right mr-2"> </i> الخدمات </a>
-                     <a class="text-white-50 mb-2" href="#"> <i class = "fa fa-angle-right mr-2"> </i> الحزم </a>
-                     <a class="text-white-50 mb-2" href="#"> <i class = "fa fa-angle-right mr-2"> </i> أدلة </a>
+                <a class="text-white-50 mb-2" href="#"> <i class = "fa fa-angle-right mr-2"> </i> الوجهة </a>
                      <a class="text-white-50 mb-2" href="#"> <i class = "fa fa-angle-right mr-2"> </i> شهادة </a>
+                <a class="text-white-50 mb-2" href="#"> <i class = "fa fa-angle-right mr-2"> </i> حول </a>
                      <a class="text-white-50" href="#"> <i class = "fa fa-angle-right mr-2"> </i> مدونة </a>
                 </div>
             </div>
@@ -41,7 +38,7 @@
             <h5 class = "text-white text-uppercase mb-4" style = "letter-spacing: 5px؛"> اتصل بنا </h5>
                  <p> <i class = "fa fa-map-marker-alt mr-2"> </i> دار الشباب بالرقاب </p>
                  <p> <i class = "fa fa-phone-alt mr-2"> </i> 76 000 000 </p>
-                 <p> <i class = "fa fa-envelope mr-2"> </i> info@example.com </p>
+                 <p> <i class = "fa fa-envelope mr-2"> </i> info@maisonjeunes.com </p>
                  <h6 class = "text-white text-uppercase mt-4 mb-3" style = "letter-spacing: 5px؛"> النشرة الإخبارية </h6>
                  <div class = "w-100">
                     <div class="input-group">
